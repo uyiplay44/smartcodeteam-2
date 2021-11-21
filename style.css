@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Source+Sans+Pro:wght@200&display=swap');
+
+*{
+background-color: #FFBC97;
+/* border: 1px solid; */
+border-inline: 2rem;
+}
+header {
+    text-align:center;color: rgb(119, 109, 109);
+    padding: 2rem 3rem 4rem;
+    text-shadow: 6px 5px 7px wheat;
+}
+.item-1{
+display: flex;
+}
+
+.first-container{
+    border: 7px solid white;
+    width: 40%;
+    height: 20rem;
+    text-align:left;
+    border-radius: 1rem;
+    margin-left: 30rem;
+    margin-bottom: 2rem;
+    border-top-color: #FF5151;
+    text-shadow: 6px 5px 7px wheat;
+}
+.first-container h2{
+    text-align:center;
+}
+.first-container p{
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Source Sans Pro', sans-serif;
+    color: #ffff;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    /* justify-items:flex-start; */
+}
+.second-container{
+    border: 7px solid white;
+    width: 40%;
+    height: 20rem;
+    text-align:left;
+    border-radius: 1rem;
+    margin-left: 6rem;
+    border-top-color: #88E0EF;
+    text-shadow: 6px 5px 7px wheat;
+}
+.second-container h2{
+    text-align:center;
+    font-size: x-large;
+}
+.second-container p{
+    text-align: left;
+    font-size: xx-large;
+    font-family:'Source Sans Pro', sans-serif;
+    color: #ffff;
+    /* text-align:center; */
+}
+.third-container{
+    border: 7px solid white;
+    width: 40%;
+    height: 20rem;
+    text-align:left;
+    border-radius: 1rem;
+    border-top-color: #1597E5;
+    text-shadow: 6px 5px 7px wheat;
+    /* margin-left: 30rem; */
+    
+}
+.third-container h2{
+    text-align:center;
+    font-size: x-large;
+}
+.third-container p{
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Source Sans Pro', sans-serif;
+    color: #ffff;
+}
+.fouth-container{
+    border: 7px solid white;
+    width: 40%;
+    height: 20rem;
+    text-align:left;
+    border-radius: 1rem;
+    margin-left: 30rem;
+    border-top-color: #FF7800;
+    margin-top: 2rem;
+    text-shadow: 6px 5px 7px wheat;
+}
+.fouth-container h2{
+    text-align:center;
+    font-size: x-large;
+}
+.fouth-container p{
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Source Sans Pro', sans-serif;
+    color: #ffff;
+}
+hr{
+    display: none;
+}
